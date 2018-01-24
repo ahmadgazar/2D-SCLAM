@@ -1,0 +1,7 @@
+function out = odometry(id, eLeft, eRight)
+  out.id = id;
+  out.eLeft = normalizeAngle(eLeft);
+  out.eRight = normalizeAngle(eRight);
+  #out.eLeft = eLeft;
+  #out.eRight = eRight;
+end
